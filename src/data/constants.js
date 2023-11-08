@@ -295,7 +295,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "http://mescentralschoolvly.org/Assets/img/meslogo.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa8ziMcY0iKblHnqrIrE4C4Q2oBX1zC4ZXQ8sSDwoo&s",
     school: "MES Public School",
     date: "2017-2019",
     grade: "75%",
