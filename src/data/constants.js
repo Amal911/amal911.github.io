@@ -295,7 +295,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "./images\images.png",
+    img: "",
     school: "MES Public School",
     date: "2017-2019",
     grade: "75%",
@@ -304,7 +304,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "http://mescentralschoolvly.org/Assets/img/meslogo.png",
+    img: "",
     school: "MES Public School",
     date: "2017",
     grade: "CGPA 10",
