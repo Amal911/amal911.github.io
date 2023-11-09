@@ -144,6 +144,12 @@ const MemberName = styled.div`
     @media only screen and (max-width: 600px) {
         font-size: 14px;
     }
+    @media only screen and (max-width: 400px) {
+        width: 150px;
+    }
+    @media only screen and (max-width: 348px) {
+        width: fit-content;
+    }
 `;
 
 
