@@ -310,10 +310,63 @@ export const education = [
     grade: "CGPA 10",
     desc: "Completed my class 10 education at MES Public School, Kodungallur.",
     degree: "CBSE",
+    
   },
 ];
 
 export const projects = [
+  {
+    id: 5,
+    title: "Trekking Travels",
+    date: "",
+    description:
+      "Trecking Travelss is a travels company landing page .",
+    image:
+      "https://github.com/Amal911/Trekking-Travel/raw/main/source/images/preview.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+    ],
+    category: "web design",
+    github: "https://github.com/Amal911/Trekking-Travel",
+    webapp: "https://amal911.github.io/Trekking-Travel/",
+  },
+  {
+    id: 4,
+    title: "Health Crew",
+    date: "",
+    description:
+      "website build for Health Crew.click a fitness program.",
+    image:
+      "https://github.com/Amal911/HealthCrew/raw/main/assets/images/health%20crew.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+    ],
+    category: "web design",
+    github: "https://github.com/healthcrewclick/healthcrewclick.github.io",
+    webapp: "https://healthcrewclick.github.io/",
+    member: [
+      {
+        name: "Amal E A",
+        img: "https://avatars.githubusercontent.com/u/115872951?v=4",
+        linkedin: "https://www.linkedin.com/in/amal-e-a-812464246/",
+        github: "https://github.com/Amal911",
+      },
+   
+      {
+        name: "Mohammed Rasnal K A",
+        img: "https://avatars.githubusercontent.com/u/59244980?s=100&v=4",
+        linkedin: "https://www.linkedin.com/in/mohammed-rasnal-k-a-373508221/",
+        github: "https://github.com/raznalrich",
+      },
+      
+    ],
+  },
   {
       id: 3,
       title: "SARA: The virtual Receptionist",
@@ -393,7 +446,7 @@ export const projects = [
       ],
     },
   {
-    id: 0,
+    id: 1,
     title: "Quick Notes",
     date: "",
     description:
@@ -414,7 +467,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 1,
+    id: 0,
     title: "Face Recognition System",
     date: "",
     description:
