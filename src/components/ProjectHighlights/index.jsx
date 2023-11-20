@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 // import { projects } from '../../data/constants'
-import { projectHeilights } from '../../data/constants'
+import { projectHighlights } from '../../data/constants'
 import styled from 'styled-components'
 
 
@@ -58,7 +58,7 @@ const ProjectHighlight = ({openModal,setOpenModal}) => {
         </Desc>
         
         <CardContainer>{
-            projectHeilights.map((project) =>(
+            projectHighlights.map((project) =>(
                 <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))
         }

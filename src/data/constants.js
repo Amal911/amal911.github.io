@@ -690,19 +690,42 @@ export const projects = [
 
 
 
-export const projectHeilights = [
+export const projectHighlights = [
   {
-    id: 3,
-    title: "SARA: The virtual Receptionist",
+    id: 5,
+    title: "Trekking Travels",
     date: "",
     description:
-      "SARA is a virtual receptionist built to serve at college reception. the application have features such as Face Recognition, Attendance Marking, Navigation, Visitor Notification etc. The project is built as part of BTech Final year major project ",
+      "Trecking Travelss is a travels company landing page .",
     image:
-      "",
-    tags: ["Python", "Django", "SQlite", "HTML", "CSS", "JavaScript", "OpenCV", ],
-    category: "web app",
-    github: "https://github.com/Amal911/SARA-A-college-Receptionist",
-    webapp: "https://github.com/Amal911/SARA-A-college-Receptionist",
+      "https://github.com/Amal911/Trekking-Travel/raw/main/source/images/preview.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+    ],
+    category: "web design",
+    github: "https://github.com/Amal911/Trekking-Travel",
+    webapp: "https://amal911.github.io/Trekking-Travel/",
+  },
+  {
+    id: 4,
+    title: "Health Crew",
+    date: "",
+    description:
+      "website build for Health Crew.click a fitness program.",
+    image:
+      "https://github.com/Amal911/HealthCrew/raw/main/assets/images/health%20crew.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+    ],
+    category: "web design",
+    github: "https://github.com/healthcrewclick/healthcrewclick.github.io",
+    webapp: "https://healthcrewclick.github.io/",
     member: [
       {
         name: "Amal E A",
@@ -710,99 +733,115 @@ export const projectHeilights = [
         linkedin: "https://www.linkedin.com/in/amal-e-a-812464246/",
         github: "https://github.com/Amal911",
       },
-      {
-        name: "Maxen Varghese",
-        img: "https://avatars.githubusercontent.com/u/64342680?s=100&v=4",
-        linkedin: "https://www.linkedin.com/in/maxenvarghese/",
-        github: "https://github.com/Maxen16",
-      },
+   
       {
         name: "Mohammed Rasnal K A",
         img: "https://avatars.githubusercontent.com/u/59244980?s=100&v=4",
         linkedin: "https://www.linkedin.com/in/mohammed-rasnal-k-a-373508221/",
         github: "https://github.com/raznalrich",
       },
-      {
-        name: "Rohith Sekhar N",
-        img: "https://avatars.githubusercontent.com/u/96624609?s=100&v=4",
-        linkedin: "https://www.linkedin.com/in/rohith-sekhar-n-a9922b22b/",
-        github: "https://github.com/RohithSekharN",
-      },
+      
     ],
   },
-{
-    id: 2,
-    title: "Pneumonia Detection System",
+  {
+      id: 3,
+      title: "SARA: The virtual Receptionist",
+      date: "",
+      description:
+        "SARA is a virtual receptionist built to serve at college reception. the application have features such as Face Recognition, Attendance Marking, Navigation, Visitor Notification etc. The project is built as part of BTech Final year major project ",
+      image:
+        "",
+      tags: ["Python", "Django", "SQlite", "HTML", "CSS", "JavaScript", "OpenCV", ],
+      category: "web app",
+      github: "https://github.com/Amal911/SARA-A-college-Receptionist",
+      webapp: "https://github.com/Amal911/SARA-A-college-Receptionist",
+      member: [
+        {
+          name: "Amal E A",
+          img: "https://avatars.githubusercontent.com/u/115872951?v=4",
+          linkedin: "https://www.linkedin.com/in/amal-e-a-812464246/",
+          github: "https://github.com/Amal911",
+        },
+        {
+          name: "Maxen Varghese",
+          img: "https://avatars.githubusercontent.com/u/64342680?s=100&v=4",
+          linkedin: "https://www.linkedin.com/in/maxenvarghese/",
+          github: "https://github.com/Maxen16",
+        },
+        {
+          name: "Mohammed Rasnal K A",
+          img: "https://avatars.githubusercontent.com/u/59244980?s=100&v=4",
+          linkedin: "https://www.linkedin.com/in/mohammed-rasnal-k-a-373508221/",
+          github: "https://github.com/raznalrich",
+        },
+        {
+          name: "Rohith Sekhar N",
+          img: "https://avatars.githubusercontent.com/u/96624609?s=100&v=4",
+          linkedin: "https://www.linkedin.com/in/rohith-sekhar-n-a9922b22b/",
+          github: "https://github.com/RohithSekharN",
+        },
+      ],
+    },
+  {
+      id: 2,
+      title: "Pneumonia Detection System",
+      date: "",
+      description:
+        "Pneumonia Detection System is an Web Application used for detecting pneumonia using chest X-Ray scan image. A ML model was traned using keras dataset and is used for pneumonia detection. The project was done as a part of BTech Mini Project",
+      image:
+        "",
+      tags: ["Python", "TensorFow", "OpenCV", "Keras"],
+      category: "web app",
+      github: "",
+      webapp: "",
+      member: [
+        {
+          name: "Amal E A",
+          img: "https://avatars.githubusercontent.com/u/115872951?v=4",
+          linkedin: "https://www.linkedin.com/in/amal-e-a-812464246/",
+          github: "https://github.com/Amal911",
+        },
+        {
+          name: "Maxen Varghese",
+          img: "https://avatars.githubusercontent.com/u/64342680?s=100&v=4",
+          linkedin: "https://www.linkedin.com/in/maxenvarghese/",
+          github: "https://github.com/Maxen16",
+        },
+        {
+          name: "Mohammed Rasnal K A",
+          img: "https://avatars.githubusercontent.com/u/59244980?s=100&v=4",
+          linkedin: "https://www.linkedin.com/in/mohammed-rasnal-k-a-373508221/",
+          github: "https://github.com/raznalrich",
+        },
+        {
+          name: "Rohith Sekhar N",
+          img: "https://avatars.githubusercontent.com/u/96624609?s=100&v=4",
+          linkedin: "https://www.linkedin.com/in/rohith-sekhar-n-a9922b22b/",
+          github: "https://github.com/RohithSekharN",
+        },
+      ],
+    },
+  {
+    id: 1,
+    title: "Quick Notes",
     date: "",
     description:
-      "Pneumonia Detection System is an Web Application used for detecting pneumonia using chest X-Ray scan image. A ML model was traned using keras dataset and is used for pneumonia detection. The project was done as a part of BTech Mini Project",
+      "Quick Notes is a Web App mate to store notes. It is a clone of Google's Keep Notes. The apllication is made with NodeJS as the backend and MongoDB as the Database. ",
     image:
-      "",
-    tags: ["Python", "TensorFow", "OpenCV", "Keras"],
+      "https://github.com/Amal911/Quick-Notes/raw/main/public/img/img.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "EJS",
+      "JavaScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+    ],
     category: "web app",
-    github: "",
+    github: "https://github.com/Amal911/Quick-Notes",
     webapp: "",
-    member: [
-      {
-        name: "Amal E A",
-        img: "https://avatars.githubusercontent.com/u/115872951?v=4",
-        linkedin: "https://www.linkedin.com/in/amal-e-a-812464246/",
-        github: "https://github.com/Amal911",
-      },
-      {
-        name: "Maxen Varghese",
-        img: "https://avatars.githubusercontent.com/u/64342680?s=100&v=4",
-        linkedin: "https://www.linkedin.com/in/maxenvarghese/",
-        github: "https://github.com/Maxen16",
-      },
-      {
-        name: "Mohammed Rasnal K A",
-        img: "https://avatars.githubusercontent.com/u/59244980?s=100&v=4",
-        linkedin: "https://www.linkedin.com/in/mohammed-rasnal-k-a-373508221/",
-        github: "https://github.com/raznalrich",
-      },
-      {
-        name: "Rohith Sekhar N",
-        img: "https://avatars.githubusercontent.com/u/96624609?s=100&v=4",
-        linkedin: "https://www.linkedin.com/in/rohith-sekhar-n-a9922b22b/",
-        github: "https://github.com/RohithSekharN",
-      },
-    ],
   },
-{
-  id: 0,
-  title: "Quick Notes",
-  date: "",
-  description:
-    "Quick Notes is a Web App mate to store notes. It is a clone of Google's Keep Notes. The apllication is made with NodeJS as the backend and MongoDB as the Database. ",
-  image:
-    "https://github.com/Amal911/Quick-Notes/raw/main/public/img/img.png",
-  tags: [
-    "HTML",
-    "CSS",
-    "EJS",
-    "JavaScript",
-    "NodeJS",
-    "ExpressJS",
-    "MongoDB",
-  ],
-  category: "web app",
-  github: "https://github.com/Amal911/Quick-Notes",
-  webapp: "",
-},
-{
-  id: 1,
-  title: "Face Recognition System",
-  date: "",
-  description:
-    "A Face recognition python proram made with OpenCV. It uses face_recognition library and kNN Classifier for model training, face recognition and classification",
-  image:
-    "",
-  tags: ["Python", "TensorFlow", "kNN Classifier", "Pickle", "OpenCV"],
-  category: "machine learning",
-  github: "https://github.com/Amal911/Face_Recognition_Using_KNN",
-  webapp: "https://github.com/Amal911/Face_Recognition_Using_KNN",
-},
 ]
 
 
