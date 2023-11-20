@@ -182,6 +182,22 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/D560BAQEioj55ExlKcw/company-logo_200_200/0/1693145853908?e=1708560000&v=beta&t=I1l4ZihoA4YOUz2IW2ZuHo_LtQ1H8TrSkzNgN89Gg4g",
+    role: "Software Developer Intern",
+    company: "Composolution",
+    date: "Nov 2023 - present",
+    desc: "Working on FrontEnd, BackEnd and Database connection of a website using Codeigniter 4",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "Codeigniter 4",
+      "MySql",
+    ],
+  },
+  {
     id: 0,
     img: "https://cdn.dribbble.com/users/2059160/screenshots/4413086/day20-freelance.jpg",
     role: "Freelance Web Developer",
