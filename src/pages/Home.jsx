@@ -46,7 +46,7 @@ export  const Home = () => {
             <Skills />
             <Experience />
           </Wrapper>
-          <ProjectHighlight />
+          <ProjectHighlight openModal={openModal} setOpenModal={setOpenModal}/>
           {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
           <Wrapper>
             <Education />
