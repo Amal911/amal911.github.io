@@ -41,21 +41,21 @@ const Navbar = () => {
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
-            <MobileLink href="#about" onClick={() => {
+            <Link to="/#about" style={{ textDecoration: 'none'}}><MobileLink  onClick={() => {
               setIsOpen(!isOpen)
-            }}>About</MobileLink>
-            <MobileLink href='#skills' onClick={() => {
+            }}>About</MobileLink></Link>
+            <Link to="/#skills" style={{ textDecoration: 'none'}}><MobileLink  onClick={() => {
               setIsOpen(!isOpen)
-            }}>Skills</MobileLink>
-            <MobileLink href='#experience' onClick={() => {
+            }}>Skills</MobileLink></Link>
+            <Link to="/#experience" style={{ textDecoration: 'none'}}><MobileLink  onClick={() => {
               setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
-            <MobileLink href='#projects' onClick={() => {
+            }}>Experience</MobileLink></Link>
+            <Link to="/#projects" style={{ textDecoration: 'none'}}><MobileLink  onClick={() => {
               setIsOpen(!isOpen)
-            }}>Projects</MobileLink>
-            <MobileLink href='#education' onClick={() => {
+            }}>Projects</MobileLink></Link>
+            <Link to="/#education" style={{ textDecoration: 'none'}}><MobileLink  onClick={() => {
               setIsOpen(!isOpen)
-            }}>Education</MobileLink>
+            }}>Education</MobileLink></Link>
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
