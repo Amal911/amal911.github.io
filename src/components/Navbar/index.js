@@ -5,6 +5,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -23,11 +24,16 @@ const Navbar = () => {
           }} />
         </MobileIcon>
         <NavItems>
-          <NavLink href="/#about">About</NavLink>
-          <NavLink href='/#skills'>Skills</NavLink>
+          <Link to="/#about" style={{ textDecoration: 'none'}}><NavLink > About</NavLink></Link> 
+          <Link to="/#skills" style={{ textDecoration: 'none'}}><NavLink > Skills</NavLink></Link> 
+          <Link to="/#experience" style={{ textDecoration: 'none'}}><NavLink > Experience</NavLink></Link> 
+          <Link to="/#projects" style={{ textDecoration: 'none'}}><NavLink > Projects</NavLink></Link> 
+          <Link to="/#education" style={{ textDecoration: 'none'}}><NavLink > Education</NavLink></Link> 
+
+          {/* <NavLink href='/#skills'>Skills</NavLink>
           <NavLink href='/#experience'>Experience</NavLink>
           <NavLink href='/#projects'>Projects</NavLink>
-          <NavLink href='/#education'>Education</NavLink>
+          <NavLink href='/#education'>Education</NavLink> */}
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>

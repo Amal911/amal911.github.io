@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
-
+import { HashLink as Link } from 'react-router-hash-link';
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
@@ -92,11 +92,11 @@ function Footer() {
       <FooterWrapper>
         <Logo>Amal E A</Logo>
         <Nav>
-          <NavLink href="/#about">About</NavLink>
-          <NavLink href="/#skills">Skills</NavLink>
-          <NavLink href="/#experience">Experience</NavLink>
-          <NavLink href="/#projects">Projects</NavLink>
-          <NavLink href="/#education">Education</NavLink>
+        <Link to="/#about" style={{ textDecoration: 'none'}}><NavLink > About</NavLink></Link> 
+          <Link to="/#skills" style={{ textDecoration: 'none'}}><NavLink > Skills</NavLink></Link> 
+          <Link to="/#experience" style={{ textDecoration: 'none'}}><NavLink > Experience</NavLink></Link> 
+          <Link to="/#projects" style={{ textDecoration: 'none'}}><NavLink > Projects</NavLink></Link> 
+          <Link to="/#education" style={{ textDecoration: 'none'}}><NavLink > Education</NavLink></Link> 
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>

@@ -65,7 +65,7 @@ const ProjectHighlight = ({openModal,setOpenModal}) => {
           
         </CardContainer>
       </Wrapper>
-      <MoreProjectButton href="/projects"> Show More Projects </MoreProjectButton>
+      <MoreProjectButton href="#projects"> Show More Projects </MoreProjectButton>
     </Container>
   )
 }
