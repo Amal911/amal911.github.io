@@ -390,7 +390,7 @@ export const projects = [
       description:
         "SARA is a virtual receptionist built to serve at college reception. the application have features such as Face Recognition, Attendance Marking, Navigation, Visitor Notification etc. The project is built as part of BTech Final year major project ",
       image:
-        "",
+        "https://github.com/Amal911/SARA-A-college-Receptionist/raw/master/SARA%20A%20Virtual%20Receptionist.png",
       tags: ["Python", "Django", "SQlite", "HTML", "CSS", "JavaScript", "OpenCV", ],
       category: "web app",
       github: "https://github.com/Amal911/SARA-A-college-Receptionist",
