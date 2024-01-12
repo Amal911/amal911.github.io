@@ -10,7 +10,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Amal911",
-  resume:"https://drive.google.com/file/d/150NQD9UkmVwYHObrDnh8YWcGUGiFgaG3/view?usp=drive_link",
+  resume:"https://drive.google.com/file/d/1zYOQVvkWB3AgejtkMe6NfNwuyCrHKOnm/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/amal-e-a-812464246/",
   twitter: "https://twitter.com/AmalEA911",
   insta: "https://www.instagram.com/__.e_a.__/",
